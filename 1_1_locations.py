@@ -22,7 +22,7 @@ def getDiff(l1, l2):
         diff_i = abs(l1[i] - l2[i])
         diff = diff + diff_i
 
-    print(f"1: Total diff between lists: {diff}")
+    print(f"Total diff between lists: {diff}")
 
 def getSimilars(l1, l2):
     similars = {}
